@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Why I don't drink coffee even though I'm in the coffee business. ¯\_(ツ)_/¯
+title: Why I don't drink coffee even though I'm in the coffee business.
 date: 2018-11-24T01:54:46.840Z
 description: A little known fact about me that I'm sure you'll enjoy. (hopefully)
 ---
