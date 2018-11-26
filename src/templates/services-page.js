@@ -3,7 +3,7 @@ import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 
-export const ProductPageTemplate = ({
+export const ServicesPageTemplate = ({
   image,
   title,
   heading,
@@ -108,7 +108,7 @@ export default ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
-    <ProductPageTemplate
+    <ServicesPageTemplate
       image={frontmatter.image}
       title={frontmatter.title}
       heading={frontmatter.heading}
@@ -122,8 +122,8 @@ export default ({ data }) => {
   )
 }
 
-export const productPageQuery = graphql`
-  query ProductPage($id: String!) {
+export const servicesPageQuery = graphql`
+  query ServicesPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
