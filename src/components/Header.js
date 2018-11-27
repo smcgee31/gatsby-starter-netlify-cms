@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from 'gatsby'
 
 import logo from '../img/logo.svg'
 import { FaCalendarCheck } from 'react-icons/fa'
@@ -11,7 +11,7 @@ const Header = () => (
         <div className="header-logo-box">
           <Link to="/" className="level-item" title="">
             <figure>
-              <img src={logo} />
+              <img src={logo} alt="White Family Dental logo"/>
             </figure>
           </Link>
         </div>

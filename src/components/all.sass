@@ -1,0 +1,89 @@
+@import "~bulma/sass/utilities/initial-variables"
+
+// Config vars
+$kaldi-red: #FD461E
+$kaldi-red-invert: #fff
+
+$header-teal: #7fb7be
+$header-padding: 60px
+
+$primary: $kaldi-red
+$primary-invert: $kaldi-red-invert
+
+.content .taglist
+  list-style: none
+  margin-bottom: 0
+  margin-left: 0
+  margin-right: 1.5rem
+  margin-top: 1.5rem
+  display: flex
+  flex-wrap: wrap
+  justify-content: left
+  align-items: center
+  li
+    padding: 0 2rem 1rem 0
+    margin-bottom: 1.5rem
+    margin-top: 0
+
+// Helper Classes
+html
+  font-size: 12px
+
+.full-width-image-container
+  width: 100vw
+  height: 400px
+  position: relative
+  left: 50%
+  right: 50%
+  margin: 5em -50vw
+  background-size: cover
+  background-position: bottom
+  display: flex
+  justify-content: center
+  align-items: center
+
+.margin-top-0
+  margin-top: 0 !important
+
+.header
+  padding: 1.5em 0
+  background-color: $header-teal
+
+.header-logo-box
+  background-color: rgba(255, 255, 255, 0.3)
+  margin-left: 1.5em
+  padding: 1em .5em
+  border-radius: 10px
+
+.header-logo-box img
+  padding: .5em
+
+.headerPhone
+  color: white
+  margin-right: 1em
+  font-size: 1.15em
+
+.header-action-menu
+  margin: 1em
+
+.nav-bar
+  font-size: 1.25em
+  padding: 1em
+
+a.nav-link:link
+  text-decoration: none
+a.nav-link:visited
+  color: yellow !important
+a.nav-link:hover
+  text-decoration: underline
+  color: red !important
+a.nav-link:active
+  color: green !important
+
+.font-plus
+  font-size: 1.15em
+
+.icon-space-right
+  margin-right: .45em
+
+@import "~bulma"
